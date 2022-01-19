@@ -10,10 +10,6 @@ declare -i SCREEN
 
 eval "$(xdotool getmouselocation --shell | head -3)"
 
-# Get the geometry of the screens
-declare -A screen_sizes
-declare -A screen_positions
-
 # Greps the connected monitors of the screen given by xdotool
 # Set IFS to loopt line by line rather than space by space
 (
