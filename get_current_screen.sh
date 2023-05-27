@@ -1,6 +1,6 @@
 #/bin/env sh
 # Gets current screen based on mouse position
-# Licensed under GPLv2
+# Licensed under MIT
 # requires xdotool, grep, head, xrandr, cut
 
 # Bc they are declared as integers, even if xdotool doesn't set them they'll have the value 0
